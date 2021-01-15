@@ -1,0 +1,65 @@
+.footer {
+  padding: 110px 0px;
+}
+.footer-title {
+  margin-bottom: 25px;
+}
+
+.footer-text {
+  margin: 25px auto;
+  max-width: 275px;
+}
+.footer-button {
+  display: inline-block;
+text-decoration: none;
+text-transform: capitalize;
+border-radius: 35px;
+font-family: Roboto;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+color: #ffffff;
+background-color: #070707;
+padding: 11px 31px;
+margin: 0px auto;
+}
+.footer-link{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social {
+  margin: 70px 0px 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fab {
+font-size: 45px;
+margin: 0px 35px;
+}
+
+.fa-linkedin {
+}
+.fa-instagram-square {
+}
+.fa-behance-square {
+}
+.fa-dribbble-square {
+}
+.footer-subscribe {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  color: #828282;
+}
+.footer-subscribe::first-line {
+width: 150px;
+}

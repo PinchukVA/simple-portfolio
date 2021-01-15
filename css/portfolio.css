@@ -32,4 +32,9 @@
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+    transition: linear 0.35s;
+}
+.portfolio-text:hover {
+  text-decoration: none;
+  color: #fc6042;
 }
