@@ -15,8 +15,38 @@
  background-color: #828282;
 }
 .header-nav__box {
-text-decoration: none;
+  width: 100%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 30px 0px;
 }
-.header-nav__item {
 
+.header-nav__item {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #828282;
+  transition: linear 0.35s;
+}
+.header-nav__item:hover {
+  color: #fc6042;
+}
+.header-nav__item_black{
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+text-transform: capitalize;
+  color: #000000;
+  transition: linear 0.35s;
+}
+.header-nav__item_black:hover{
+  color: #fc6042;
 }

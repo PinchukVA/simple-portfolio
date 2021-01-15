@@ -1,0 +1,21 @@
+.about {
+  background: #F6F6F6;
+  padding: 100px 0px;
+}
+.about-container {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.about-title {
+
+}
+
+.about-text {
+max-width: 485px;
+width: 100%;
+padding: 30px 15px;
+}
