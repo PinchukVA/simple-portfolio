@@ -1,22 +1,32 @@
 .portfolio {
   background: #F6F6F6;
+  padding: 90px 0px;
 }
-.container {
-}
-.portfolio-container {
+.portfolio-container{
+
 }
 .portfolio-profile {
-  margin: 0px auto;
+  margin: 41px auto;
   max-width: 1170px;
   max-height: 52S0px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   overflow: hidden;
+
 }
 .portfolio-profile img {
   width: 100%;
   height: 100%;
 }
 .portfolio-text {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  color: #070707;
+  text-decoration: underline;
+  width: 100%;
 }
