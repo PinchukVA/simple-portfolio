@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+}
+
+.header-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-nav::after{
+ content: "";
+ width: 100%;
+ border: 0.5px solid #828282;
+ background-color: #828282;
+}
+.header-nav__box {
+text-decoration: none;
+}
+.header-nav__item {
+
+}
